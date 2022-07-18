@@ -36,7 +36,7 @@ function App() {
       <AnimatePresence>
 
           <motion.div id="container" layoutId='main-content'>
-              <Router>
+              <Router basename={process.env.PUBLIC_URL}>
               <motion.div
                  variants={headerAnimation}
                  initial="initial"
@@ -46,7 +46,7 @@ function App() {
                 <Header />
               </motion.div>
               <Routes>
-                <Route path="/" element={<Home />} />
+                <Route exact path="/" element={<Home />} />
                 <Route path="/About" element={<About />}/>
                 <Route path="/Work" element={<Work />} />
                 <Route path="/Capabilities" element={<Capabilities />} />
