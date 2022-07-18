@@ -12,7 +12,7 @@ import {Helmet} from 'react-helmet'
 import { motion, AnimateSharedLayout, AnimatePresence } from "framer-motion";
 
 import './App.css';
-
+ 
 function App() {
 
   const headerAnimation = {
