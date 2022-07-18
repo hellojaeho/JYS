@@ -36,7 +36,7 @@ function App() {
       <AnimatePresence>
 
           <motion.div id="container" layoutId='main-content'>
-              <Router basename={process.env.PUBLIC_URL}>
+              {/* <Router basename={process.env.PUBLIC_URL}> */}
               <motion.div
                  variants={headerAnimation}
                  initial="initial"
@@ -52,7 +52,7 @@ function App() {
                 <Route path="/Capabilities" element={<Capabilities />} />
               </Routes>
               {/* <Footer /> */}
-            </Router>
+            {/* </Router> */}
           </motion.div>
       </AnimatePresence>
     </AnimateSharedLayout>
