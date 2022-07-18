@@ -36,7 +36,7 @@ function App() {
       <AnimatePresence>
 
           <motion.div id="container" layoutId='main-content'>
-              <Router>
+              <Router basename={process.env.PUBLIC_URL}>
               <motion.div
                  variants={headerAnimation}
                  initial="initial"
