@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import Main from './components/MainComponent'
-import {HashRouter as Router, Routes, Route, Link} from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
 import Header from './components/HeaderComponent'
 import Footer from './components/FooterComponent'
 import About from './components/AboutComponent'
@@ -36,7 +36,7 @@ function App() {
       <AnimatePresence>
 
           <motion.div id="container" layoutId='main-content'>
-              <Router basename={process.env.PUBLIC_URL}>
+              <Router>
               <motion.div
                  variants={headerAnimation}
                  initial="initial"
