@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import Main from './components/MainComponent'
-import {HashRouter as Router, Routes, Route, Link} from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
 import Header from './components/HeaderComponent'
 import Footer from './components/FooterComponent'
 import About from './components/AboutComponent'
@@ -12,7 +12,7 @@ import {Helmet} from 'react-helmet'
 import { motion, AnimateSharedLayout, AnimatePresence } from "framer-motion";
 
 import './App.css';
- 
+
 function App() {
 
   const headerAnimation = {

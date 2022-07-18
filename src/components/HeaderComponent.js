@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import {HashRouter as Router, Routes, Route, Link} from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
 import logo from '../images/logo.png'
 import close from '../images/close.png'
 import emailjs from '@emailjs/browser'
