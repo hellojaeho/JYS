@@ -2,7 +2,7 @@
   "name": "site",
   "homepage": "https://hellojaeho.github.io/JYS",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "-": "^0.0.1",
     "@emailjs/browser": "^3.6.2",
