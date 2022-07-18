@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/hellojaeho.github.io/static/css/main.94338f68.css",
+    "main.js": "/hellojaeho.github.io/static/js/main.b3460c9b.js",
+    "static/js/787.dd4029b4.chunk.js": "/hellojaeho.github.io/static/js/787.dd4029b4.chunk.js",
+    "static/media/jys_hero_compressed.mp4": "/hellojaeho.github.io/static/media/jys_hero_compressed.007de8e8cc490db47b7b.mp4",
+    "static/media/big_logo.png": "/hellojaeho.github.io/static/media/big_logo.88711d21a0a298f25232.png",
+    "index.html": "/hellojaeho.github.io/index.html",
+    "main.94338f68.css.map": "/hellojaeho.github.io/static/css/main.94338f68.css.map",
+    "main.b3460c9b.js.map": "/hellojaeho.github.io/static/js/main.b3460c9b.js.map",
+    "787.dd4029b4.chunk.js.map": "/hellojaeho.github.io/static/js/787.dd4029b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94338f68.css",
+    "static/js/main.b3460c9b.js"
+  ]
+}
