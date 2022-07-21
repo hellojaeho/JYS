@@ -46,7 +46,7 @@ function App() {
                 <Header />
               </motion.div>
               <Routes>
-                <Route exact path="/" element={<Home />} />
+                <Route path="/" element={<Home />} />
                 <Route path="/About" element={<About />}/>
                 <Route path="/Work" element={<Work />} />
                 <Route path="/Capabilities" element={<Capabilities />} />
